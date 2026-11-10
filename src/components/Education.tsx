@@ -8,42 +8,16 @@ import {
 import { FaGraduationCap, FaCertificate } from "react-icons/fa";
 
 const educationHistory = [
+ 
   {
-    degree: "B.Sc. in Computer Science & Engineering (CSE)",
-    institution: "Your University / College Name",
-    location: "Dhaka, Bangladesh",
-    period: "2022 – 2026 (Expected)",
-    grade: "CGPA: 3.50+ / 4.00",
-    description:
-      "Gained comprehensive theoretical and practical knowledge in computational thinking, software engineering, and web technologies.",
-    coursework: [
-      "Data Structures & Algorithms",
-      "Object-Oriented Programming (Java/C++)",
-      "Database Management Systems (DBMS)",
-      "Web Technologies & Engineering",
-      "Operating Systems & Computer Networks",
-      "Software Design Patterns",
-    ],
-  },
-  {
-    degree: "Higher Secondary Certificate (HSC) – Science",
-    institution: "Your College Name",
-    location: "Dhaka, Bangladesh",
+    degree: "Higher Secondary Certificate (HSC) – Business Studies",
+    institution: "Dinajpur Adarshaw College",
+    location: "Dinajpur, Bangladesh",
     period: "2019 – 2021",
     grade: "GPA: 5.00 / 5.00 (A+)",
     description:
       "Completed higher secondary education with a major in Science, developing strong analytical thinking and mathematical problem-solving skills.",
     coursework: ["Physics", "Chemistry", "Higher Mathematics", "Information & Communication Tech (ICT)"],
-  },
-  {
-    degree: "Secondary School Certificate (SSC) – Science",
-    institution: "Your High School Name",
-    location: "Dhaka, Bangladesh",
-    period: "2017 – 2019",
-    grade: "GPA: 5.00 / 5.00 (A+)",
-    description:
-      "Graduated secondary school with distinction in Science, establishing foundational curiosity for science and computing.",
-    coursework: ["General Science", "Advanced Mathematics", "Computer Studies"],
   },
 ];
 
@@ -59,12 +33,6 @@ const certifications = [
     issuer: "freeCodeCamp",
     year: "2023",
     desc: "Verified competency in semantic HTML5, modern CSS Grid/Flexbox, and accessible web standards.",
-  },
-  {
-    title: "JavaScript Algorithms & Data Structures",
-    issuer: "freeCodeCamp",
-    year: "2024",
-    desc: "Mastery of ES6+, functional programming, OOP in JS, and algorithmic problem-solving.",
   },
 ];
 
@@ -188,17 +156,6 @@ const Education = () => {
                 </p>
               </div>
             ))}
-
-            {/* Quick Note Card */}
-            <div className="p-5 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-700 text-white shadow-md">
-              <h4 className="font-bold text-base mb-1">Continuous Learner</h4>
-              <p className="text-xs text-blue-100 leading-relaxed mb-3">
-                Always sharpening my problem-solving abilities and keeping updated with modern web standards and React 19 innovations.
-              </p>
-              <span className="inline-block bg-white/20 backdrop-blur-xs text-white text-xs font-semibold px-3 py-1 rounded-full">
-                Active Code Contributor
-              </span>
-            </div>
           </div>
         </div>
       </div>

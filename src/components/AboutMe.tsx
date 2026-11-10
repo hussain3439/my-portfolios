@@ -131,7 +131,7 @@ const AboutMe = () => {
           </div>
 
           {/* Core Strengths Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
             {highlights.map((item) => (
               <div
                 key={item.title}
@@ -144,10 +144,10 @@ const AboutMe = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
 
           {/* CTA Buttons */}
-          <div className="flex flex-wrap items-center gap-4 pt-4">
+          {/* <div className="flex flex-wrap items-center gap-4 pt-4">
             <Link
               href="/resume"
               className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold shadow-md shadow-blue-500/20 transition-all duration-300"
@@ -163,7 +163,7 @@ const AboutMe = () => {
               <FaRocket className="text-sm" />
               <span>Let&apos;s Work Together</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

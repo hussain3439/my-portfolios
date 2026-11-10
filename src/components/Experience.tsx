@@ -8,36 +8,8 @@ import {
 import { FaLaptopCode, FaHandsHelping, FaAward } from "react-icons/fa";
 
 const experiences = [
-  {
-    role: "Frontend Developer Trainee / Intern",
-    company: "Software Development Firm / Tech Lab",
-    location: "Dhaka, Bangladesh",
-    period: "Jan 2024 – Jun 2024",
-    type: "Internship / Practical Training",
-    badgeColor: "bg-blue-50 text-blue-700 border-blue-200",
-    responsibilities: [
-      "Engineered reusable and accessible React components according to Figma design specifications.",
-      "Integrated RESTful APIs, handled asynchronous state loading states, and reduced unnecessary re-renders.",
-      "Adopted professional Git workflow (feature branching, clean commit messages, code review PRs).",
-      "Collaborated in Agile sprints with team members to resolve UI bugs and enhance responsiveness.",
-    ],
-    technologies: ["React.js", "Tailwind CSS", "JavaScript ES6+", "Git", "REST APIs"],
-  },
-  {
-    role: "Independent & Freelance Web Developer",
-    company: "Self-Employed / Client Work",
-    location: "Remote",
-    period: "2023 – Present",
-    type: "Freelance & Projects",
-    badgeColor: "bg-emerald-50 text-emerald-700 border-emerald-200",
-    responsibilities: [
-      "Designed and deployed responsive web interfaces for multiple clients and personal portfolio initiatives.",
-      "Delivered pixel-perfect mobile-first designs with Tailwind CSS achieving top Lighthouse performance scores.",
-      "Configured automated deployments and DNS hosting setups on Vercel and Netlify.",
-      "Communicated directly with project stakeholders to gather requirements and iterate based on feedback.",
-    ],
-    technologies: ["React", "HTML5/CSS3", "JavaScript", "Tailwind CSS", "Vercel"],
-  },
+
+  
   {
     role: "Academic Project Lead & Developer",
     company: "University Software Lab",
